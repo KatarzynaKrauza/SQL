@@ -43,7 +43,7 @@ ROMI (Return on Marketing Investment) = [(Przychody - Koszty) / Koszty] * 100%
 📌 campaign_name – tabela łącząca kampanie z obu platform
 
 
-## 📈 Wyniki i wnioski
+## 📈 Wnioski
 
 📌 Analiza umożliwia porównanie efektywności kampanii na różnych platformach
 
