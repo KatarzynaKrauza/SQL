@@ -1,24 +1,43 @@
-## Query 1: Data Aggregation
+ ## Analiza wskaźników marketingowych - SQL  ##
 
-This query aggregates data according to various criteria and metrics that represent the results of marketing campaigns
+📌 OPIS PROJEKTU
 
-```sql
-select distinct 
-	ad_date,
-	campaign_id,
-	sum(spend) as total_spend,
-	sum(impressions) as total_impressions,
-	sum(clicks) as total_clicks,
-	sum(value) as total_value,
-	round(1.0*sum(spend)/sum(clicks),2) as CPC,--cost per click, koszt jednego klikcnięcia w reklamę
-	round(1.0*sum(spend)/sum(impressions)*1000,2) as CPM,--cost per millie, koszt wyświetlenia 1000 reklam
-	round(1.0*sum(clicks)/sum(impressions)*100,2) as CTR,--click-trough rate, stosunek kliknięć do wyświetlen reklamy, %
-	round(1.0*(sum(value)-sum(spend))/sum(spend)*100,2) as ROMI-- zwrot z inwestycji w reklamę, wyrażony w %
-from
-	facebook_ads_basic_daily fabd 
-where true 
-	and impressions>0
-	and clicks>0
-group by
-	ad_date,
-	campaign_id;
+Projekt ten skupia się na analizie kluczowych wskaźników marketingowych (CPC, CPM, CTR, ROMI) dla kampanii reklamowych prowadzonych w Google Ads i Facebook Ads. Wykorzystałam SQL do przetwarzania danych, łączenia tabel oraz generowania raportów umożliwiających ocenę efektywności działań marketingowych.
+
+🎯 CELE PROJEKTU
+
+✅ Połączenie danych z Facebook Ads i Google Ads w jedną bazę
+
+✅ Obliczenie kluczowych wskaźników marketingowych (CPC, CPM, CTR, ROMI)
+
+✅ Możliwość generowania raportów i wizualizacji wyników
+
+
+
+🛠 TECHNOLOGIE
+
+🔹 SQL (PostgreSQL/DBeaver)
+
+🔹 Dashboard (Tableau, Looker Studio)
+
+
+
+📊 KLUCZOWE WSKAŹNIKI
+
+CPC (Cost Per Click) = Koszt kampanii / Liczba kliknięć
+
+CPM (Cost Per Mille) = (Koszt kampanii / Liczba wyświetleń) * 1000
+
+CTR (Click-Through Rate) = (Liczba kliknięć / Liczba wyświetleń) * 100%
+
+ROMI (Return on Marketing Investment) = [(Przychody - Koszty) / Koszty] * 100%
+
+
+
+🏛 TABELE ŹRÓDŁOWE
+
+📌 facebook_ads_basic_daily – dane o kampaniach z Facebook Ads
+
+📌 google_ads_basic_daily – dane o kampaniach z Google Ads
+
+📌 adset_id – tabela łącząca kampanie z obu platform
