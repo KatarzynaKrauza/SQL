@@ -1,28 +1,27 @@
- ## Analiza wskaźników marketingowych - SQL  ##
+ # **ANALIZA WSKAŹNIKÓW MARKETINGOWYCH - SQL**
 
-**📌 OPIS PROJEKTU**
+## 📌 Opis projektu ##
 
-Projekt ten skupia się na analizie kluczowych wskaźników marketingowych (CPC, CPM, CTR, ROMI) dla kampanii reklamowych prowadzonych w Google Ads i Facebook Ads. Wykorzystałam SQL do przetwarzania danych, łączenia tabel oraz generowania raportów umożliwiających ocenę efektywności działań marketingowych.
+Projekt ten skupia się na analizie kluczowych wskaźników marketingowych (CPC, CPM, CTR, ROMI) dla kampanii reklamowych prowadzonych w Google Ads i Facebook Ads. Wykorzystałam SQL do przetwarzania danych, łączenia tabel oraz generowania raportów umożliwiających ocenę efektywności działań marketingowych
 
-**🎯 CELE PROJEKTU**
 
-✅ Połączenie danych z Facebook Ads i Google Ads w jedną bazę
+## 🎯 Cele projektu
+
+✅ Połączenie danych z tabel facebook_ads_basic_daily i google_ads_basic_daily w jedną bazę
 
 ✅ Obliczenie kluczowych wskaźników marketingowych (CPC, CPM, CTR, ROMI)
 
 ✅ Możliwość generowania raportów i wizualizacji wyników
 
 
-
-**🛠 TECHNOLOGIE**
+## 🛠 Technologie
 
 🔹 SQL (PostgreSQL/DBeaver)
 
 🔹 Dashboard (Tableau, Looker Studio)
 
 
-
-**📊 KLUCZOWE WSKAŹNIKI**
+## 📊 Kluczowe wskaźniki
 
 CPC (Cost Per Click) = Koszt kampanii / Liczba kliknięć
 
@@ -34,10 +33,19 @@ ROMI (Return on Marketing Investment) = [(Przychody - Koszty) / Koszty] * 100%
 
 
 
-**🏛 TABELE ŹRÓDŁOWE**
+## 🏛 Tabele źródłowe
 
 📌 facebook_ads_basic_daily – dane o kampaniach z Facebook Ads
 
 📌 google_ads_basic_daily – dane o kampaniach z Google Ads
 
 📌 adset_id – tabela łącząca kampanie z obu platform
+
+
+## 📈 Wyniki i wnioski
+
+📌 Analiza umożliwia porównanie efektywności kampanii na różnych platformach
+
+📌 Możemy identyfikować, które kampanie generują największy zwrot z inwestycji (ROMI)
+
+📌 Pozwala na optymalizację budżetu reklamowego i lepsze targetowanie
