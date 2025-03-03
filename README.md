@@ -1,10 +1,10 @@
  ## Analiza wskaźników marketingowych - SQL  ##
 
-📌 OPIS PROJEKTU
+**📌 OPIS PROJEKTU**
 
 Projekt ten skupia się na analizie kluczowych wskaźników marketingowych (CPC, CPM, CTR, ROMI) dla kampanii reklamowych prowadzonych w Google Ads i Facebook Ads. Wykorzystałam SQL do przetwarzania danych, łączenia tabel oraz generowania raportów umożliwiających ocenę efektywności działań marketingowych.
 
-🎯 CELE PROJEKTU
+**🎯 CELE PROJEKTU**
 
 ✅ Połączenie danych z Facebook Ads i Google Ads w jedną bazę
 
@@ -14,7 +14,7 @@ Projekt ten skupia się na analizie kluczowych wskaźników marketingowych (CPC,
 
 
 
-🛠 TECHNOLOGIE
+**🛠 TECHNOLOGIE**
 
 🔹 SQL (PostgreSQL/DBeaver)
 
@@ -22,7 +22,7 @@ Projekt ten skupia się na analizie kluczowych wskaźników marketingowych (CPC,
 
 
 
-📊 KLUCZOWE WSKAŹNIKI
+**📊 KLUCZOWE WSKAŹNIKI**
 
 CPC (Cost Per Click) = Koszt kampanii / Liczba kliknięć
 
@@ -34,7 +34,7 @@ ROMI (Return on Marketing Investment) = [(Przychody - Koszty) / Koszty] * 100%
 
 
 
-🏛 TABELE ŹRÓDŁOWE
+**🏛 TABELE ŹRÓDŁOWE**
 
 📌 facebook_ads_basic_daily – dane o kampaniach z Facebook Ads
 
