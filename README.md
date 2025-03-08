@@ -1,6 +1,6 @@
  # **ANALIZA WSKAŹNIKÓW MARKETINGOWYCH - SQL**
 
-## 📌 Project description 
+## 📝 Project description 
 
 This project focuses on analyzing key marketing metrics (CPC, CPM, CTR, ROMI) for advertising campaigns run on Google Ads and Facebook Ads. Campaign data is merged and processed in SQL using JOIN, UNION, and UTM parameter analysis, enabling precise tracking of advertising performance.
 
@@ -24,13 +24,13 @@ This project focuses on analyzing key marketing metrics (CPC, CPM, CTR, ROMI) fo
 
 ## 📊 Key metrics
 
-✅ CPC (Cost Per Click) = Campaign cost / Number of clicks
+📌 CPC (Cost Per Click) = Campaign cost / Number of clicks
 
-✅ CPM (Cost Per Mille) = (Campaign cost / Number of impressions) * 1000
+📌 CPM (Cost Per Mille) = (Campaign cost / Number of impressions) * 1000
 
-✅ CTR (Click-Through Rate) = (Number of clicks / Number of impressions) * 100%
+📌 CTR (Click-Through Rate) = (Number of clicks / Number of impressions) * 100%
 
-✅ ROMI (Return on Marketing Investment) = [(Revenue - Costs) / Costs] * 100%
+📌 ROMI (Return on Marketing Investment) = [(Revenue - Costs) / Costs] * 100%
 
 
 ## 🏛 Source tables
@@ -41,10 +41,10 @@ This project focuses on analyzing key marketing metrics (CPC, CPM, CTR, ROMI) fo
 
 📌 campaign_name – a table combining campaigns from both platforms
 
-## 📈 Conclusions
+## 💡 Conclusions
 
-📌 The analysis allows for comparing campaign performance across different platforms.
+✅ The analysis allows for comparing campaign performance across different platforms.
 
-📌 We can identify which campaigns generate the highest return on marketing investment (ROMI).
+✅ We can identify which campaigns generate the highest return on marketing investment (ROMI).
 
-📌 It enables budget optimization and more effective targeting.
+✅ It enables budget optimization and more effective targeting.
