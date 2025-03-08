@@ -1,52 +1,50 @@
  # **ANALIZA WSKAŹNIKÓW MARKETINGOWYCH - SQL**
 
-## 📌 Opis projektu ##
+## 📌 Project description 
 
-Projekt ten skupia się na analizie kluczowych wskaźników marketingowych (CPC, CPM, CTR, ROMI) dla kampanii reklamowych prowadzonych w Google Ads i Facebook Ads. Dane kampanii są łączone i przetwarzane w SQL przy użyciu JOIN, UNION oraz analizy znaczników UTM, które pozwalają na dokładne śledzenie efektywności działań reklamowych.
-
-## 🎯 Cele projektu
-
-✅ Połączenie danych z tabel: facebook_adset, facebook_campaign, facebook_ads_basic_daily i google_ads_basic_daily w jedną bazę
-
-✅ Obliczenie kluczowych wskaźników marketingowych (CPC, CPM, CTR, ROMI)
-
-✅ Analiza skuteczności kampanii według źródła ruchu i kanału
-
-✅ Możliwość generowania raportów i wizualizacji wyników
+This project focuses on analyzing key marketing metrics (CPC, CPM, CTR, ROMI) for advertising campaigns run on Google Ads and Facebook Ads. Campaign data is merged and processed in SQL using JOIN, UNION, and UTM parameter analysis, enabling precise tracking of advertising performance.
 
 
-## 🛠 Technologie
+## 🎯 Goals
+
+✅ Merging data from the tables: facebook_adset, facebook_campaign, facebook_ads_basic_daily, and google_ads_basic_daily into a single database.
+
+✅ Calculating key marketing metrics (CPC, CPM, CTR, ROMI).
+
+✅ Analyzing campaign performance by traffic source and channel.
+
+✅ Generating reports and visualizing results.
+
+## 🛠 Technologies
 
 🔹 SQL (PostgreSQL/DBeaver)
 
 🔹 Dashboard (Tableau, Looker Studio)
 
 
-## 📊 Kluczowe wskaźniki
+## 📊 Key metrics
 
-CPC (Cost Per Click) = Koszt kampanii / Liczba kliknięć
+✅ CPC (Cost Per Click) = Campaign cost / Number of clicks
 
-CPM (Cost Per Mille) = (Koszt kampanii / Liczba wyświetleń) * 1000
+✅ CPM (Cost Per Mille) = (Campaign cost / Number of impressions) * 1000
 
-CTR (Click-Through Rate) = (Liczba kliknięć / Liczba wyświetleń) * 100%
+✅ CTR (Click-Through Rate) = (Number of clicks / Number of impressions) * 100%
 
-ROMI (Return on Marketing Investment) = [(Przychody - Koszty) / Koszty] * 100%
-
-
-
-## 🏛 Tabele źródłowe
-
-📌 facebook_ads_basic_daily, facebook_adset, facebook_campaign – dane o kampaniach z Facebook Ads
-
-📌 google_ads_basic_daily – dane o kampaniach z Google Ads
-
-📌 campaign_name – tabela łącząca kampanie z obu platform
+✅ ROMI (Return on Marketing Investment) = [(Revenue - Costs) / Costs] * 100%
 
 
-## 📈 Wnioski
+## 🏛 Source tables
 
-📌 Analiza umożliwia porównanie efektywności kampanii na różnych platformach
+📌 facebook_ads_basic_daily, facebook_adset, facebook_campaign – Facebook Ads campaign data
 
-📌 Możemy identyfikować, które kampanie generują największy zwrot z inwestycji (ROMI)
+📌 google_ads_basic_daily – Google Ads campaign data
 
-📌 Pozwala na optymalizację budżetu reklamowego i lepsze targetowanie
+📌 campaign_name – a table combining campaigns from both platforms
+
+## 📈 Conclusions
+
+📌 The analysis allows for comparing campaign performance across different platforms.
+
+📌 We can identify which campaigns generate the highest return on marketing investment (ROMI).
+
+📌 It enables budget optimization and more effective targeting.
