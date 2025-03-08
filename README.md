@@ -1,4 +1,4 @@
-   # *MARKETING INDICATORS ANALYSIS - SQL*
+   # *MARKETING METRICS ANALYSIS - SQL*
 
 ## 📝 Project description 
 
