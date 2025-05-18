@@ -1,4 +1,4 @@
-   # *MARKETING METRICS ANALYSIS - SQL*
+<h1 align="center">Marketing Metrics Analysis</h1>   
 
 ## 📝 Project description 
 
